@@ -11,20 +11,8 @@ build:
 
 publish:
     docker:
-        repo: ftsuzuki/cicd_demoapp
+        repo: $$DOCKER_USERNAME/cicd_demoapp
         tag: latest
-        username: ftsuzuki
-        password: eyJhbGciOiJSU0EtT0FFUCIsImVuYyI6IkExMjhHQ00ifQ.SikhQMCKUCVbaq5WjYnUzvydCg05k1zwD
-2yS_u4ldCUCjSEByhZ-_DUdHWq0dALnQyVrU9VeCO8lqWkkx3GixcIViN3pt7cuuOrmHflO5tKbAjcdq
-9Of9eneFqTPqgmfnDXN88XVP54bFnxfQ8ZeHbiNv_ITKmlp8Zt0nrKRFxReRJM5wKawDxMaKAZRLi9g5
-6lXjMOM_l4yTi75pgcAtePJUgXV8lp8IDzekUx_cr1r8_ApDHs4SnipxFpQ5TZ4rEnxYL1okkG2GkGhM
-_x88JBqoDTKu2rqby-4kVh269GOIrH-N9Ji1OpH62RVBzHvRtyy9CU7jCK4lr8cvkFWrQ.O05sw1ed5m
-SPUs1I.kJUhqyca3BaTs2xJLLlAG-YM4l0O1Q_X4Vc9CT7rQ_kpOg6tSPe-z5sVewxpz4OgAIpBklNmA
--01I-288_WO57iRhgRhMQ1kvSbq-siLEGd8ROkfZcAd9IGSW7sDbIdHOrEFeA4Qd4lV0peBLkHS_1sFm
-42L9XdCbS4KUieElxZuVwOqPV_P4CuPgLsx-KLrgFqRJiG0XxgmRLgk-5ecrCk9YFYFAD_g0hnvQD4fV
-nXiXGJtreur1QlHC-qDufcfpMUDgIJa2VazGFJPSqw9CKNyj3-fDBtNzmG7Fk-4tIWtHXAS4EhOE110R
-FCwsaJrSpOy1SoYuPgdZ17sVn2HLhFYS5v-P9j21pe0e6WjIvy48NMD8uWAh0LJq1FSkYsjW7W9MiyiT
-nHQAn6sF22sE6dEbdaUxxs5qurzGlYSfQDCsdycTOJaPRb6AyaIYrJDIoL7GVtH8K5ro2BC4BqURBXH9
-q8SAG3R-cUAUBt2qjX6lwupWJqKfbdWqPN4f2u0Qpc45tCTizCTKxeZ4cx6YS6GTdp0tVZA7D5RadQ9t
-VNEwKBG7_pARfw_3y9uXWrl1CFBkGhJimH8.tzC2NA2kPLow2I1s01oKXw
-        email: ftsuzuki@cisco.com
+        username: $$DOCKER_USERNAME
+        password: $$DOCKER_PASSWORD
+        email: $$DOCKER_EMAIL
